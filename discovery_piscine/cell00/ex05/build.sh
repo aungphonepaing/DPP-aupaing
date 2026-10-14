@@ -5,4 +5,4 @@ else
     for name in "$@"; do
         mkdir "ex$name"
     done
-fi
+fi./
