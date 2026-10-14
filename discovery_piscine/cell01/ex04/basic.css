@@ -1,0 +1,36 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+.shops {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.shop {
+    text-align: center;
+}
+
+.shop img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 40px 0 10px;
+}
+
+footer {
+    text-align: right;
+    font-style: italic;
+    font-family: monospace;
+}
