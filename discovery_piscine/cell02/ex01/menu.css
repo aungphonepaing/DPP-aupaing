@@ -1,0 +1,20 @@
+.menubtm {
+    padding: 5px 24px;
+    background-color: #2c498d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.menulist {
+    position: absolute;
+    background-color: #041438;
+    color: white; 
+    border-radius: 5px;
+}
+
+.menulist li {
+    padding: 5px 10px;
+}
+
