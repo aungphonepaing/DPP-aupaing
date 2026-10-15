@@ -1,0 +1,16 @@
+body{
+    height:100vh;
+    display:flex;
+    background-color: #1b1b1b;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    color:white;
+}
+
+li{
+    list-style: none;
+}
