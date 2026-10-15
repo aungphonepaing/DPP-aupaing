@@ -26,6 +26,10 @@ table{
 
 }
 
+tr{
+    padding:10px 0px;
+}
+
 h1{
     font-family:'Courier New', Courier, monospace;
     color:white;
@@ -47,4 +51,8 @@ img{
     color: white;
     border:none;
     cursor:pointer;
+}
+
+p{
+    color:rgb(178, 178, 178)
 }
