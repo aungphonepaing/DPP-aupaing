@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#image1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQct77MevvvJ9D57ZQjLG_YrH_kSL8j-hEI_U_xJWdb9kSXWStlDxnfFtw&s=10");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#block{
+    color: white;
+    background-color: black;
+}
+
+#image2{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/image10/A-purple-space-4K-OLED-Desktop-Wallpaper-with-geometric-shapes-and-patterns-intersecting-a-starry-background-creating-a-modern-and-artistic-look.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
