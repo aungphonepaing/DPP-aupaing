@@ -1,0 +1,51 @@
+body {
+<<<<<<< HEAD
+    background-image:url('https://images.wallpapersden.com/image/download/windows-11-black_bG1mbWWUmZqaraWkpJRobWllrWdpZWU.jpg');
+    background-position: center;
+    background-size: cover;
+    margin:0;
+=======
+    background-color: #0f1626;
+>>>>>>> rescue
+
+}
+
+.head {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+<<<<<<< HEAD
+    align-items: center;
+=======
+    margin-top: 50px;
+>>>>>>> rescue
+    font-style: normal;
+    height:100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+<<<<<<< HEAD
+.links a{
+    padding:10px 20px;
+    border:3px solid white;
+    color:white;
+    border-radius: 10px;;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+=======
+h3 {
+    color: white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+>>>>>>> rescue
+
+}
+.links a:hover {
+    background-color: white;
+    color: #030030;
+}

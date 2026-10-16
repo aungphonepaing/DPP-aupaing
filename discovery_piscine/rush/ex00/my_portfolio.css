@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(248, 221, 185);
+    margin:0;
+    height:100vh;
+    width:100%;
+}
+.header{
+    color:white;
+}
+
+.navmain{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 80px;
+    background: #2e2e2e; 
+    z-index: 1000;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding:0 50px;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1000;
+}
+
+.navlink{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navlink a{
+    text-decoration: none;
+    color:rgb(21, 21, 21);
+    border: 1px solid rgb(255, 253, 253);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    transition: color 0.3s;
+    border:none;
+
+}
+
+.navlink a:hover{
+    background-color: rgb(64, 9, 9);
+    color:antiquewhite;
+
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:100vh;
+    color:white;
+    background-image: url("https://assets.hongkiat.com/uploads/pattern-wallpapers/original/20.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+table{
+    width:100%;
+}
+
+.home img{
+    border-radius: 20px;
+    width: 300px;
+    max-width: 80%;
+    transition: transform 0.3s;
+
+}
+
+.home img:hover {
+    transform:scale(1.05);
+}
+
+#name{
+    color:rgb(176, 27, 0);
+    font-weight: bold;
+}
+
+.exp{
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:antiquewhite;
+    background-color: brown;
+}
+
+.exp table {                        
+    border:none;
+}
+
+.exp table td{
+    width:50%;
+}
+
+.exp table td img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+.contact{
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-image:url("https://cdn.wallpapersafari.com/19/76/yfV2nm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin:0;
+    
+}
+
+.social a img{
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+}
+
