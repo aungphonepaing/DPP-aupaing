@@ -1,11 +1,13 @@
 body {
-    background-color: #0f1626;
+    background-image:url('https://images.wallpapersden.com/image/download/windows-11-black_bG1mbWWUmZqaraWkpJRobWllrWdpZWU.jpg');
+    background-position: center;
+    background-size: cover;
     margin:0;
 
 }
 
 .head {
-    color: #ffffff;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +20,7 @@ body {
 
 .links a{
     padding:10px 20px;
-    border:1px solid white;
+    border:3px solid white;
     color:white;
     border-radius: 10px;;
     text-decoration: none;
@@ -27,5 +29,5 @@ body {
 }
 .links a:hover {
     background-color: white;
-    color: rgb(3, 0, 48);
+    color: #030030;
 }
