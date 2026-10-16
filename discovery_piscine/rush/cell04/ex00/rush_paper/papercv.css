@@ -1,0 +1,255 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 14px 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#section1 {
+    max-height: 400px;
+}
+
+#section2 {
+    max-height: 400px;
+}
+
+#section3 {
+    max-height: 400px;
+    justify-content: center;
+}
+#section_grill {
+    max-height: 400px;
+}
+#section_eat {
+    max-height: 400px;
+}
+
+.burger ,
+.hotdog,
+.rice,
+.grill,
+.salad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.burger {
+    background-image: url("burger.jpg");
+}
+
+.hotdog {
+    background-image: url("hotdog.jpg");
+}
+
+.rice {
+    background-image: url("rice.jpg");
+}
+.grill {
+    background-image: url("grill.png");
+}   
+.salad {
+    background-image: url("salad.png");
+}
+
+h1 {
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+.tittle {
+    width: 100%;
+    height: auto;
+    color: rgba(211, 211, 211, 0.843);
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+
+
+.pictext{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+}
+
+.slided {
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.slided:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.text-block {
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+.slided p.pictext {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.gordon {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    background-image: url("gordon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+}
+
+.fry {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    background-image: url("frying.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+}
+
+.fish {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    background-image: url("fish.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+}
+.eat {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    background-image: url("eating.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+}
+.card { 
+    border-radius: 18px;
+    background-color: #f3e5d3;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    width: min(360px, 80vw);
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    font-family: arial;
+}
+
+#section3 .gordon {
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    display: block;
+}
+
+#section3 h1 {
+    color: #1a1a1a;
+    margin: 20px 0 10px;
+    font-size: 2rem;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+    margin: 0 16px 10px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.ig,
+.facebook,
+.github {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+.ig {
+    background-image: url("ig.png");
+}
+
+.facebook {
+    background-image: url("facebook.png");
+}
+
+.github {
+    background-image: url("github.png");
+}
